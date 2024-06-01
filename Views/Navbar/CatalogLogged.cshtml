@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutLogged.cshtml";
+}
+
+<h1>Index</h1>
+<form>
+    <div class="form-group row">
+        <div class="form-group">
+            <label for="searchPerson" class="form-label mt-4">Search for a person:</label>
+            <div class="row pt-1">
+                <div class="col-sm-11">
+                    <input type="text" id="searchPerson" class="form-control" placeholder="Search by name, surname...">
+                </div>
+                <div class="col-sm-1">
+                    <a class="btn btn-primary">Search</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="searchSubject" class="form-label mt-4">Search for a subject:</label>
+            <div class="row pt-1">
+                <div class="col-sm-11">
+                    <input type="text" class="form-control" id="searchSubject" placeholder="Search by subject name, code...">
+                </div>
+                <div class="col-sm-1">
+                    <a class="btn btn-primary">Search</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="searchStudies" class="form-label mt-4">Search for a studies:</label>
+            <div class="row pt-1">
+                <div class="col-sm-11">
+                    <input type="text" class="form-control" id="searchStudies" placeholder="Search by study programme, code...">
+                </div>
+                <div class="col-sm-1">
+                    <a class="btn btn-primary">Search</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
